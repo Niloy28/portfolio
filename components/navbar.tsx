@@ -7,11 +7,12 @@ import {
 } from "./ui/navigation-menu";
 import Link from "next/link";
 import NavLink from "./nav-link";
+import ThemeToggle from "./theme-toggle";
 
 const NavBar = () => {
 	return (
-		<NavigationMenu className="m-2 p-2 pt-10 min-w-full font-bold">
-			<NavigationMenuList className="flex justify-center items-center gap-4">
+		<NavigationMenu className="pt-10 min-w-full font-bold flex justify-between">
+			<NavigationMenuList className="pl-4 flex justify-center items-center gap-4">
 				<NavigationMenuItem>
 					<NavLink key="projects" destination="projects" />
 				</NavigationMenuItem>
@@ -21,6 +22,9 @@ const NavBar = () => {
 				<NavigationMenuItem>
 					<NavLink key="socials" destination="socials" />
 				</NavigationMenuItem>
+			</NavigationMenuList>
+			<NavigationMenuList className="pr-4">
+				<ThemeToggle />
 			</NavigationMenuList>
 		</NavigationMenu>
 	);
