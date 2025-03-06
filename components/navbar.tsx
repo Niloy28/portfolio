@@ -2,10 +2,8 @@ import React from "react";
 import {
 	NavigationMenu,
 	NavigationMenuItem,
-	NavigationMenuLink,
 	NavigationMenuList,
 } from "./ui/navigation-menu";
-import Link from "next/link";
 import NavLink from "./nav-link";
 import ThemeToggle from "./theme-toggle";
 

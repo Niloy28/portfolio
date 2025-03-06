@@ -4,6 +4,7 @@ import { Moon, Sun } from "lucide-react";
 import React, { useEffect, useState } from "react";
 import { Switch } from "./ui/switch";
 import { useTheme } from "next-themes";
+import { Skeleton } from "./ui/skeleton";
 
 const ThemeToggle = () => {
 	const [mounted, setMounted] = useState(false);
@@ -14,24 +15,25 @@ const ThemeToggle = () => {
 		setMounted(true);
 	}, []);
 
-	if (!mounted) {
-		return;
-	}
-
 	const toggleTheme = () => {
 		resolvedTheme == "light" ? setTheme("dark") : setTheme("light");
 	};
 
 	return (
-		<div className="flex justify-center items-center gap-2">
-			<Moon />
-			<Switch
-				className="border dark:border-white not-dark:border-black"
-				defaultChecked={resolvedTheme == "light"}
-				onClick={toggleTheme}
-			/>
-			<Sun />
-		</div>
+		<>
+			{!mounted && <Skeleton className="w-20 h-6" />}
+			{mounted && (
+				<div className="flex justify-center items-center gap-2">
+					<Moon />
+					<Switch
+						className="border dark:border-white not-dark:border-black"
+						defaultChecked={resolvedTheme == "light"}
+						onClick={toggleTheme}
+					/>
+					<Sun />
+				</div>
+			)}
+		</>
 	);
 };
 
