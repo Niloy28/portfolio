@@ -1,0 +1,10 @@
+{
+	"Hero": {
+		"description": "Hello! I'm Farhan Ishrak Islam, people usually call me Farhan. Thanks for checking out my portfolio site!"
+	},
+	"NavLink": {
+		"projects": "Projects",
+		"skills": "Skills",
+		"socials": "Socials"
+	}
+}
