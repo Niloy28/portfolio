@@ -7,20 +7,20 @@ const Hero = () => {
 	const t = useTranslations("Hero");
 
 	return (
-		<>
-			<div className="w-80 h-80 md:w-96 md:h-96">
+		<div className="flex sm:flex-col md:flex-row justify-evenly items-center sm:w-2xl md:w-3xl lg:w-4xl">
+			<div className="w-full h-full">
 				<Image
-					className="rounded-full max-w-full h-full border-4 border-black dark:border-white object-cover"
+					className="rounded-full grow max-w-full h-full border-4 border-black dark:border-white object-cover m-auto"
 					src={Profile}
 					alt="Farhan Ishrak Islam"
 					width={384}
 					height={384}
 				/>
 			</div>
-			<p className="pt-10 text-3xl text-center font-semibold px-12">
+			<p className="sm:pt-10 md:pt-0 text-3xl text-center font-semibold px-12">
 				{t("description")}
 			</p>
-		</>
+		</div>
 	);
 };
 
