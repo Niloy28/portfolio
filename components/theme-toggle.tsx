@@ -23,10 +23,10 @@ const ThemeToggle = () => {
 		<>
 			{!mounted && <Skeleton className="w-20 h-6" />}
 			{mounted && (
-				<div className="flex justify-center items-center gap-2">
+				<div className="flex justify-center items-center gap-2 hover:cursor-pointer">
 					<Moon />
 					<Switch
-						className="border dark:border-white not-dark:border-black"
+						className="border hover:cursor-pointer dark:border-white not-dark:border-black"
 						defaultChecked={resolvedTheme == "light"}
 						onClick={toggleTheme}
 					/>
