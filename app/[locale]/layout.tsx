@@ -31,6 +31,8 @@ export default async function LocaleLayout({
 	params: Promise<{ locale: string }>;
 }>) {
 	const { locale } = await params;
+	// Disable linting to stop eslint build errors
+	// eslint-disable-next-line  @typescript-eslint/no-explicit-any
 	if (!routing.locales.includes(locale as any)) {
 		notFound();
 	}

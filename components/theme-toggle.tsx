@@ -16,7 +16,11 @@ const ThemeToggle = () => {
 	}, []);
 
 	const toggleTheme = () => {
-		resolvedTheme == "light" ? setTheme("dark") : setTheme("light");
+		if (resolvedTheme == "light") {
+			setTheme("dark");
+		} else {
+			setTheme("light");
+		}
 	};
 
 	return (
