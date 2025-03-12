@@ -7,7 +7,7 @@ const Hero = () => {
 	const t = useTranslations("Hero");
 
 	return (
-		<div className="flex sm:flex-col md:flex-row justify-evenly items-center sm:w-2xl md:w-3xl lg:w-4xl">
+		<div className="flex flex-col md:flex-row justify-evenly items-center w-2xl md:w-2xl lg:w-4xl">
 			<div className="w-full h-full">
 				<Image
 					className="rounded-full grow max-w-full h-full border-4 border-black dark:border-white object-cover m-auto"
