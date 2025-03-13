@@ -6,6 +6,7 @@ import {
 } from "./ui/navigation-menu";
 import NavLink from "./nav-link";
 import ThemeToggle from "./theme-toggle";
+import LocaleSelect from "./locale-select";
 
 const NavBar = () => {
 	return (
@@ -21,8 +22,9 @@ const NavBar = () => {
 					<NavLink key="socials" destination="socials" />
 				</NavigationMenuItem>
 			</NavigationMenuList>
-			<NavigationMenuList className="pr-4">
+			<NavigationMenuList className="pr-4 flex gap-4">
 				<ThemeToggle />
+				<LocaleSelect />
 			</NavigationMenuList>
 		</NavigationMenu>
 	);

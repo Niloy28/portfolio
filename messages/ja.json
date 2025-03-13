@@ -7,6 +7,9 @@
 		"skills": "スキル",
 		"socials": "SNS"
 	},
+	"LocaleSelect": {
+		"locale": "{locale, select, en {English} ja {日本語} other {Unknown}}"
+	},
 	"Resume": {
 		"heading": "履歴・職務経歴",
 		"experience-heading": "職務経歴",

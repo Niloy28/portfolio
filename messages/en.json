@@ -7,6 +7,9 @@
 		"skills": "Skills",
 		"socials": "Socials"
 	},
+	"LocaleSelect": {
+		"locale": "{locale, select, en {English} ja {日本語} other {Unknown}}"
+	},
 	"Resume": {
 		"heading": "Resume",
 		"experience-heading": "Professional Experience",
