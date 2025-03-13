@@ -5,7 +5,7 @@ import NavBar from "@/components/navbar";
 import { ThemeProvider } from "@/providers/theme-provider";
 import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
-import { getMessages } from "next-intl/server";
+import { getMessages, setRequestLocale } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
 
 const geistSans = Geist({
@@ -23,6 +23,10 @@ export const metadata: Metadata = {
 	description: "Farhan is aiming to create functional and aesthetic websites",
 };
 
+export function generateStaticParams() {
+	return routing.locales.map((locale) => ({ locale }));
+}
+
 export default async function LocaleLayout({
 	children,
 	params,
@@ -36,6 +40,8 @@ export default async function LocaleLayout({
 	if (!routing.locales.includes(locale as any)) {
 		notFound();
 	}
+
+	setRequestLocale(locale);
 
 	// Providing all messages to the client
 	// side is the easiest way to get started
