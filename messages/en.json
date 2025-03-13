@@ -6,5 +6,56 @@
 		"projects": "Projects",
 		"skills": "Skills",
 		"socials": "Socials"
+	},
+	"Resume": {
+		"heading": "Resume",
+		"experience-heading": "Professional Experience",
+		"experience": {
+			"cuore": {
+				"title": "Cuoretech Co. Ltd.",
+				"place": "Osaka, Japan",
+				"job": "Programmer",
+				"period": "May 2024 - Now",
+				"content": [
+					{
+						"title": "Self Study on Standby",
+						"description": "Acquiring new skills while on standby. Mainly focusing on web technologies such as React, Next.js, Vue.js and AWS features. Also studying about different designs and architectures used in enterprise development."
+					}
+				]
+			},
+			"ccs": {
+				"title": "CLOUD CREATIVE STUDIOS Co. Ltd.",
+				"place": "Kyoto, Japan",
+				"job": "Programmer",
+				"period": "December 2022 - April 2024",
+				"content": [
+					{
+						"title": "Backend Development",
+						"description": "Developed backend API endpoints utlizing ASP.NET to handle tasks including but not limited to, server-side game data verification, game match result confirmation, inventory data updates and fetching blob files for dynamic rendering on the frontend."
+					},
+					{
+						"title": "Management UI Development",
+						"description": "Developed web-based UI with standard web technologies such as HTML, CSS and Javascript for monitoring and managing user and project data."
+					},
+					{
+						"title": "Process Automation",
+						"description": "Wrote Github Actions and Azure Cronjobs to automate processes such as weekly KPI report generation and daily builds of a project."
+					}
+				]
+			}
+		},
+		"education-heading": "Education",
+		"education": {
+			"place": "University of Dhaka",
+			"location": "Dhaka, Bangladesh",
+			"subject": "Robotics and Mechatronics Engineering",
+			"period": "2017 - 2022",
+			"courses": {
+				"thesis-heading": "Thesis Topic",
+				"thesis": "Reinforcement Learning in video game AI",
+				"regular-heading": "Regular Courses",
+				"regular": "Structural Programming, Object-oriented Programming, Data Structures and Algorithms, AI Model Development"
+			}
+		}
 	}
 }

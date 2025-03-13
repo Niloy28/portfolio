@@ -6,5 +6,56 @@
 		"projects": "プロジェクト",
 		"skills": "スキル",
 		"socials": "SNS"
+	},
+	"Resume": {
+		"heading": "履歴・職務経歴",
+		"experience-heading": "職務経歴",
+		"experience": {
+			"cuore": {
+				"title": "株式会社クオーレテック",
+				"place": "大阪、日本",
+				"job": "プログラマー",
+				"period": "2024年5月 - 現在",
+				"content": [
+					{
+						"title": "待機中で自己学習",
+						"description": "待機中に新しい技術を勉強しています。特に、React、Next.js、Vue.js、AWS といった Web 系技術の使い方に集中しています。さらに、開発に頻繁に使用するデザインと構造の方法についても勉強しています。"
+					}
+				]
+			},
+			"ccs": {
+				"title": "株式会社クラウドクリエイティブスタジオ",
+				"place": "京都、日本",
+				"job": "プログラマー",
+				"period": "2022年12月 - 2024年4月",
+				"content": [
+					{
+						"title": "バックエンドシステム開発",
+						"description": "ASP.NET を利用してバックエンド API エンドポイントを開発し、サーバーサイドのゲームデータ検証、ゲームマッチの結果確認、インベントリデータの更新、およびフロントエンドで動的にレンダリングするための BLOB ファイルの取得などのタスクを処理しました。"
+					},
+					{
+						"title": "管理システム UI 開発",
+						"description": "HTML、CSS、JavaScript といった標準的な Web 技術を使用して、ユーザーとプロジェクトデータの監視および管理を行う Web ベースの UI を開発しました。"
+					},
+					{
+						"title": "処理自動化",
+						"description": "Github Actions と Azure Cronjobs を使用して、週次 KPI レポートの生成やプロジェクトのデイリービルドなどのプロセスを自動化しました。"
+					}
+				]
+			}
+		},
+		"education-heading": "学歴",
+		"education": {
+			"place": "ダッカ大学",
+			"location": "ダッカ、バングラデシュ",
+			"subject": "ロボティクス・メカトロニクス工学",
+			"period": "2017年 - 2022年",
+			"courses": {
+				"thesis-heading": "論文トピック",
+				"thesis": "ゲーム AI における強化学習",
+				"regular-heading": "普通",
+				"regular": "構造プログラミング, オブジェクト指向プログラミング, データ構造とアルゴリズム, AI モデル開発"
+			}
+		}
 	}
 }
