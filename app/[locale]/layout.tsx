@@ -7,6 +7,7 @@ import { routing } from "@/i18n/routing";
 import { notFound } from "next/navigation";
 import { getMessages, setRequestLocale } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
+import Footer from "@/components/footer";
 
 const geistSans = Geist({
 	variable: "--font-geist-sans",
@@ -63,6 +64,7 @@ export default async function LocaleLayout({
 							<NavBar />
 						</header>
 						<main>{children}</main>
+						<Footer />
 					</ThemeProvider>
 				</NextIntlClientProvider>
 			</body>
