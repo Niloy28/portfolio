@@ -1,6 +1,6 @@
 import { Link } from "@/i18n/navigation";
 import React from "react";
-import { NavigationMenuLink } from "./ui/navigation-menu";
+import { NavigationMenuLink } from "../ui/navigation-menu";
 import { capitalizeFirstLetter } from "@/lib/utils";
 import { useTranslations } from "next-intl";
 

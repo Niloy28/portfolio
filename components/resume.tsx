@@ -6,6 +6,9 @@ import {
 } from "lucide-react";
 import { useTranslations } from "next-intl";
 import React from "react";
+import Heading from "./heading/heading";
+import SubHeading from "./heading/subheading";
+import SubSubHeading from "./heading/subsubheading";
 
 type WorkplacesType = "cuore" | "ccs";
 
@@ -18,26 +21,24 @@ const Resume = () => {
 			id="resume"
 			className="w-full xl:w-7/10 m-auto flex flex-col gap-4 justify-start items-start self-start py-12 px-0 md:px-8"
 		>
-			<header>
-				<h2 className="text-3xl font-bold">{t("heading")}</h2>
-			</header>
+			<Heading>{t("heading")}</Heading>
 			{/* Experience Section */}
 			<section className="w-full">
-				<h3 className="text-2xl font-semibold flex gap-2 items-center pb-4">
+				<SubHeading>
 					<MonitorSmartphone />
 					{t("experience-heading")}
-				</h3>
+				</SubHeading>
 				<ol className="list-none ml-8">
 					{keys.map((key) => (
 						// TODO: Add timeline
 						<li key={key} className="pb-8">
-							<h4 className="text-xl font-semibold flex justify-between items-center pb-2">
+							<SubSubHeading>
 								{t(`experience.${key}.title`)}
 								<span className="flex gap-2 items-center">
 									<MapPin />
 									{t(`experience.${key}.place`)}
 								</span>
-							</h4>
+							</SubSubHeading>
 							<h5 className="flex justify-between items-center pb-2">
 								{t(`experience.${key}.job`)}
 								<span className="flex gap-2 items-center">
@@ -69,19 +70,19 @@ const Resume = () => {
 
 			{/* Education Section */}
 			<section className="w-full">
-				<h3 className="text-2xl font-semibold flex gap-2 items-center pb-4">
+				<SubHeading>
 					<GraduationCap />
 					{t("education-heading")}
-				</h3>
+				</SubHeading>
 				<ol className="list-none ml-8">
 					<li>
-						<h4 className="text-xl font-semibold flex justify-between items-center pb-2">
+						<SubSubHeading>
 							{t("education.place")}
 							<span className="flex gap-2 items-center">
 								<MapPin />
 								{t("education.location")}
 							</span>
-						</h4>
+						</SubSubHeading>
 						<span className="flex justify-between items-center pb-2">
 							{t("education.subject")}
 							<span className="flex gap-2 items-center">

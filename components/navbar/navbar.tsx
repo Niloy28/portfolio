@@ -3,7 +3,7 @@ import {
 	NavigationMenu,
 	NavigationMenuItem,
 	NavigationMenuList,
-} from "./ui/navigation-menu";
+} from "../ui/navigation-menu";
 import NavLink from "./nav-link";
 import ThemeToggle from "./theme-toggle";
 import LocaleSelect from "./locale-select";

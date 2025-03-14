@@ -2,9 +2,9 @@
 
 import { Moon, Sun } from "lucide-react";
 import React, { useEffect, useState } from "react";
-import { Switch } from "./ui/switch";
+import { Switch } from "../ui/switch";
 import { useTheme } from "next-themes";
-import { Skeleton } from "./ui/skeleton";
+import { Skeleton } from "../ui/skeleton";
 
 const ThemeToggle = () => {
 	const [mounted, setMounted] = useState(false);
