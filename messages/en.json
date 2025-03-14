@@ -22,7 +22,7 @@
 				"content": [
 					{
 						"title": "Self Study on Standby",
-						"description": "Acquiring new skills while on standby. Mainly focusing on web technologies such as React, Next.js, Vue.js and AWS features. Also studying about different designs and architectures used in enterprise development."
+						"description": "Acquiring new skills while on standby. Mainly focusing on web technologies such as Next.js, Vue.js and AWS features. Also studying about different designs and architectures used in enterprise development."
 					}
 				]
 			},
@@ -38,7 +38,7 @@
 					},
 					{
 						"title": "Management UI Development",
-						"description": "Developed web-based UI with standard web technologies such as HTML, CSS and Javascript for monitoring and managing user and project data."
+						"description": "Developed web-based UI with standard web technologies such as HTML, CSS, Javascript and React for monitoring and managing user and project data."
 					},
 					{
 						"title": "Process Automation",
