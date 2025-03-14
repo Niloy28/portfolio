@@ -14,7 +14,10 @@ const Resume = () => {
 	const keys: WorkplacesType[] = ["cuore", "ccs"];
 
 	return (
-		<article className="w-full xl:w-7/10 m-auto flex flex-col gap-4 justify-start items-start self-start py-12 px-0 md:px-8">
+		<article
+			id="resume"
+			className="w-full xl:w-7/10 m-auto flex flex-col gap-4 justify-start items-start self-start py-12 px-0 md:px-8"
+		>
 			<header>
 				<h2 className="text-3xl font-bold">{t("heading")}</h2>
 			</header>

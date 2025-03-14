@@ -13,13 +13,16 @@ const NavBar = () => {
 		<NavigationMenu className="pt-10 min-w-full font-bold flex justify-between">
 			<NavigationMenuList className="pl-4 flex justify-center items-center gap-4">
 				<NavigationMenuItem>
-					<NavLink key="projects" destination="projects" />
+					<NavLink key="resume" destination="resume" />
 				</NavigationMenuItem>
 				<NavigationMenuItem>
 					<NavLink key="skills" destination="skills" />
 				</NavigationMenuItem>
 				<NavigationMenuItem>
-					<NavLink key="socials" destination="socials" />
+					<NavLink key="projects" destination="projects" />
+				</NavigationMenuItem>
+				<NavigationMenuItem>
+					<NavLink key="contact" destination="contact" />
 				</NavigationMenuItem>
 			</NavigationMenuList>
 			<NavigationMenuList className="pr-4 flex gap-4">

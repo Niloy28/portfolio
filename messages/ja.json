@@ -5,7 +5,8 @@
 	"NavLink": {
 		"projects": "プロジェクト",
 		"skills": "スキル",
-		"socials": "SNS"
+		"resume": "経歴",
+		"contact": "連絡"
 	},
 	"LocaleSelect": {
 		"locale": "{locale, select, en {English} ja {日本語} other {Unknown}}"
