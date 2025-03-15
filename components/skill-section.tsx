@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 import React from "react";
 
-const SubSubHeading = ({
+const SkillSection = ({
 	children,
 	className,
 }: {
@@ -9,15 +9,15 @@ const SubSubHeading = ({
 	className?: string;
 }) => {
 	return (
-		<h4
+		<section
 			className={cn(
-				"text-xl font-semibold flex justify-between items-center pb-2",
+				"flex flex-col items-center sm:items-start sm:justify-between",
 				className
 			)}
 		>
 			{children}
-		</h4>
+		</section>
 	);
 };
 
-export default SubSubHeading;
+export default SkillSection;

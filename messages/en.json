@@ -56,10 +56,17 @@
 			"period": "2017 - 2022",
 			"courses": {
 				"thesis-heading": "Thesis Topic",
-				"thesis": "Reinforcement Learning in video game AI",
+				"thesis": "Research on implementing Reinforcement Learning based enemy AI in video games",
 				"regular-heading": "Regular Courses",
 				"regular": "Structural Programming, Object-oriented Programming, Data Structures and Algorithms, AI Model Development"
 			}
 		}
+	},
+	"Skills": {
+		"heading": "Skills",
+		"language": "Languages",
+		"frameworks": "Frameworks",
+		"database": "Databases",
+		"tools": "Tools"
 	}
 }

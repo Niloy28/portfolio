@@ -1,7 +1,7 @@
 import { cn } from "@/lib/utils";
 import React from "react";
 
-const SubSubHeading = ({
+const SkillGrid = ({
 	children,
 	className,
 }: {
@@ -9,15 +9,12 @@ const SubSubHeading = ({
 	className?: string;
 }) => {
 	return (
-		<h4
-			className={cn(
-				"text-xl font-semibold flex justify-between items-center pb-2",
-				className
-			)}
+		<div
+			className={cn("w-max grid grid-cols-3 2xl:grid-cols-4 gap-4", className)}
 		>
 			{children}
-		</h4>
+		</div>
 	);
 };
 
-export default SubSubHeading;
+export default SkillGrid;

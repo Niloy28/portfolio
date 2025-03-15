@@ -56,10 +56,17 @@
 			"period": "2017年 - 2022年",
 			"courses": {
 				"thesis-heading": "論文トピック",
-				"thesis": "ゲーム AI における強化学習",
+				"thesis": "ゲームで強化学習ベースの敵AIを実装の研究",
 				"regular-heading": "普通",
 				"regular": "構造プログラミング, オブジェクト指向プログラミング, データ構造とアルゴリズム, AI モデル開発"
 			}
 		}
+	},
+	"Skills": {
+		"heading": "スキル",
+		"language": "言語",
+		"frameworks": "フレームワーク",
+		"database": "データベース",
+		"tools": "ツール"
 	}
 }
