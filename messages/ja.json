@@ -67,6 +67,7 @@
 		"language": "言語",
 		"frameworks": "フレームワーク",
 		"database": "データベース",
-		"tools": "ツール"
+		"tools": "ツール",
+		"job-experience": "{month, plural, =0 {自己学習経験} =3 {3ヶ月間の経験} =6 {6ヶ月間の経験}  =9 {9ヶ月間の経験} =12 {1年間の経験} other {#年間の経験}}"
 	}
 }

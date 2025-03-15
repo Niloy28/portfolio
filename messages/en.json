@@ -67,6 +67,7 @@
 		"language": "Languages",
 		"frameworks": "Frameworks",
 		"database": "Databases",
-		"tools": "Tools"
+		"tools": "Tools",
+		"job-experience": "{month, plural, =0 {Personal Experience}  =3 {3 Months of Experience} =6 {6 Months of Experience}  =9 {9 Months of Experience} =12 {1 Year of Experience} other {# Years of Experience}}"
 	}
 }

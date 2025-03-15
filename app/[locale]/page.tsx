@@ -1,6 +1,6 @@
 import Hero from "@/components/hero";
 import Resume from "@/components/resume";
-import Skills from "@/components/skills";
+import Skills from "@/components/skills/skills";
 import { setRequestLocale } from "next-intl/server";
 import { use } from "react";
 
