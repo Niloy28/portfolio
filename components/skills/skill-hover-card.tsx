@@ -4,7 +4,6 @@ import {
 	HoverCardContent,
 	HoverCardTrigger,
 } from "../ui/hover-card";
-import { Button } from "../ui/button";
 import { useTranslations } from "next-intl";
 import { cn } from "@/lib/utils";
 
