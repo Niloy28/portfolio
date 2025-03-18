@@ -69,5 +69,22 @@
 		"database": "Databases",
 		"tools": "Tools",
 		"job-experience": "{month, plural, =0 {Personal Experience}  =3 {3 Months of Experience} =6 {6 Months of Experience}  =9 {9 Months of Experience} =12 {1 Year of Experience} other {# Years of Experience}}"
+	},
+	"Projects": {
+		"heading": "Projects",
+		"projects": {
+			"hana-shop": {
+				"title": "Hana Shop",
+				"description": "An e-commerce site built with Next.js and React, styled with TailwindCSS."
+			},
+			"rhythmflow": {
+				"title": "Rhythmflow",
+				"description": "An in-development music streaming website being developed in Next.js."
+			},
+			"weathervue": {
+				"title": "WeatherVue",
+				"description": "A weather app with Vue.js and styled with TailwindCSS."
+			}
+		}
 	}
 }

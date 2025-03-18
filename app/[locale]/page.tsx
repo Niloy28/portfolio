@@ -1,4 +1,5 @@
 import Hero from "@/components/hero";
+import Projects from "@/components/projects/projects";
 import Resume from "@/components/resume";
 import Skills from "@/components/skills/skills";
 import { setRequestLocale } from "next-intl/server";
@@ -18,6 +19,7 @@ export default function Home({
 			<Hero />
 			<Resume />
 			<Skills />
+			<Projects />
 		</div>
 	);
 }

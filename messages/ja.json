@@ -69,5 +69,22 @@
 		"database": "データベース",
 		"tools": "ツール",
 		"job-experience": "{month, plural, =0 {自己学習経験} =3 {3ヶ月間の経験} =6 {6ヶ月間の経験}  =9 {9ヶ月間の経験} =12 {1年間の経験} other {#年間の経験}}"
+	},
+	"Projects": {
+		"heading": "プロジェクト",
+		"projects": {
+			"hana-shop": {
+				"title": "Hana Shop",
+				"description": "An e-commerce site built with Next.js and React, styled with TailwindCSS."
+			},
+			"rhythmflow": {
+				"title": "Rhythmflow",
+				"description": "An in-development music streaming website being developed in Next.js."
+			},
+			"weathervue": {
+				"title": "WeatherVue",
+				"description": "A weather app with Vue.js and styled with TailwindCSS."
+			}
+		}
 	}
 }
