@@ -72,18 +72,22 @@
 	},
 	"Projects": {
 		"heading": "Projects",
+		"demo": "Demo",
 		"projects": {
 			"hana-shop": {
 				"title": "Hana Shop",
-				"description": "An e-commerce site built with Next.js and React, styled with TailwindCSS."
+				"summary": "An e-commerce site built with Next.js and React.",
+				"description": "# Hana Shop (花屋) 🌸\n\nThis is a e-commerce site built with React and Next.js and styled with TailwindCSS.\n## Features 🎉\n\n- Shop flowers based on categories\n- Hero section with carousel image display\n- Preview images from the product card carousel\n- Ability to checkout using Stripe\n- Admin dashboard to manage product information\n- Responsive design using TailwindCSS\n\n## Technologies ⚙️\n- [React](https://react.dev/)\n- [Next.js](https://nextjs.org/)\n- [Radix UI](https://www.radix-ui.com/)\n- [TailwindCSS](https://tailwindcss.com/)\n- [Prisma](https://www.prisma.io/) as ORM\n- [Supabase](https://supabase.com/) as Postgres Database\n- [Upstash Redis](https://upstash.com/) to hold cart data\n- [Uploadthing](https://uploadthing.com/) to store images\n- [Kinde](https://kinde.com/) for Authentication\n- [Conform](https://conform.guide/) for form validation\n- [Zod](https://zod.dev/) to validate data\n- [Lucide](https://lucide.dev/) for icons\n- [Next Themes](https://github.com/pacocoursey/next-themes) for dark mode\n- [React Markdown](https://github.com/remarkjs/react-markdown) to render markdown in HTML\n- [Stripe API](https://docs.stripe.com/api?lang=node) to handle product management and checkout"
 			},
 			"rhythmflow": {
 				"title": "Rhythmflow",
-				"description": "An in-development music streaming website being developed in Next.js."
+				"summary": "An in-development music streaming website being developed in Next.js.",
+				"description": "# Rhythmflow 🎧 (Currently in development)\nThis is a music streaming site currently being built with React and Next.js and styled with TailwindCSS.\n\n## Features 🎉\n\n- View songs based on artist or album\n- Stream music for free!\n- (Planned) Ability to like songs\n- (Planned) Ability to create playlists\n\n## Technologies ⚙️\n- [React](https://react.dev/)\n- [Next.js](https://nextjs.org/)\n- [Radix UI](https://www.radix-ui.com/)\n- [TailwindCSS](https://tailwindcss.com/)\n- [Drizzle](https://orm.drizzle.team/) as ORM\n- [Turso](https://turso.tech/) as Database\n- [Cloudflare R2](https://www.cloudflare.com/developer-platform/products/r2/) to store songs and images\n- [Better Auth](https://www.better-auth.com/) for Authentication\n- [Zod](https://zod.dev/) to validate data\n- [Lucide](https://lucide.dev/) for icons"
 			},
 			"weathervue": {
 				"title": "WeatherVue",
-				"description": "A weather app with Vue.js and styled with TailwindCSS."
+				"summary": "A weather app developed in Vue.js",
+				"description": "# WeatherVue (ウェザービュー) ☀️\nThis is a Vue.js based weather application styled with TailwindCSS. The app allows users to search for weather information by location on its home page.\n## Features 🎉\n- Location searching feature on the home page (with pre-emptive suggestions!)\n- Pin locations of interest to the homepage for quick access\n- Current weather display\n- Weather forecast for the next few days\n- Responsive design using TailwindCSS\n\nThe weather data is fetched from [OpenWeatherMap's](https://openweathermap.org/) [OneAPI](https://openweathermap.org/api/one-call-3), and the location data is fetched from OpenWeatherMap's [GeocodingAPI](https://openweathermap.org/api/geocoding-api).\n\n## Technologies ⚙️\n- [Vue](https://vuejs.org/)\n- [Vue Router](https://router.vuejs.org/)\n- [TailwindCSS](https://tailwindcss.com/)\n- [Axios](https://axios-http.com/)\n- [Dayjs](https://day.js.org/)"
 			}
 		}
 	}

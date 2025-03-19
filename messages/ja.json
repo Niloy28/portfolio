@@ -72,18 +72,22 @@
 	},
 	"Projects": {
 		"heading": "プロジェクト",
+		"demo": "デモ",
 		"projects": {
 			"hana-shop": {
 				"title": "Hana Shop",
-				"description": "An e-commerce site built with Next.js and React, styled with TailwindCSS."
+				"summary": "React と Next.js を使用して作成した EC サイト。",
+				"description": "# Hana Shop (花屋) 🌸\nこちらは React と Next.js を使用して構築され、TailwindCSS でスタイリングされた EC サイトです。\n\n## 機能 🎉\n\n- カテゴリ別に花を購入可能  \n- ヒーローセクションでカルーセル画像を表示  \n- 商品カードのカルーセルから画像プレビュー  \n- Stripe を使ったチェックアウト機能  \n- 商品情報を管理するための管理者ダッシュボード  \n- TailwindCSS を使用したレスポンシブデザイン  \n\n## 使用技術 ⚙️\n\n- [React](https://react.dev/)  \n- [Next.js](https://nextjs.org/)  \n- [Radix UI](https://www.radix-ui.com/)  \n- [TailwindCSS](https://tailwindcss.com/)  \n- [Prisma](https://www.prisma.io/) (ORM)  \n- [Supabase](https://supabase.com/) (Postgres データベース)  \n- [Upstash Redis](https://upstash.com/) (カートデータ用)  \n- [Uploadthing](https://uploadthing.com/) (画像保存用)  \n- [Kinde](https://kinde.com/) (認証用)  \n- [Conform](https://conform.guide/) (フォームバリデーション)  \n- [Zod](https://zod.dev/) (データ検証)  \n- [Lucide](https://lucide.dev/) (アイコン)  \n- [Next Themes](https://github.com/pacocoursey/next-themes) (ダークモード)  \n- [React Markdown](https://github.com/remarkjs/react-markdown) (HTML でマークダウンをレンダリング)  \n- [Stripe API](https://docs.stripe.com/api?lang=node) (商品管理とチェックアウト用)"
 			},
 			"rhythmflow": {
 				"title": "Rhythmflow",
-				"description": "An in-development music streaming website being developed in Next.js."
+				"summary": "Next.js で開発中の音楽ストリーミング Web サイト。",
+				"description": "# Rhythmflow 🎧 (現在開発中)\nこちらは React と Next.js を使用して構築され、TailwindCSS でスタイリングされた音楽ストリーミングサイトです。\n\n## 機能 🎉\n\n- アーティストやアルバムに基づいた楽曲の表示  \n- 音楽を無料でストリーミング可能！  \n- (予定) 楽曲を「いいね」する機能  \n- (予定) プレイリストを作成する機能  \n\n## 使用技術 ⚙️\n\n- [React](https://react.dev/)  \n- [Next.js](https://nextjs.org/)  \n- [Radix UI](https://www.radix-ui.com/)  \n- [TailwindCSS](https://tailwindcss.com/)  \n- [Drizzle](https://orm.drizzle.team/) (ORM)  \n- [Turso](https://turso.tech/) (データベース)  \n- [Cloudflare R2](https://www.cloudflare.com/developer-platform/products/r2/) (楽曲と画像保存用)  \n- [Better Auth](https://www.better-auth.com/) (認証用)  \n- [Zod](https://zod.dev/) (データ検証)  \n- [Lucide](https://lucide.dev/) (アイコン) "
 			},
 			"weathervue": {
 				"title": "WeatherVue",
-				"description": "A weather app with Vue.js and styled with TailwindCSS."
+				"summary": "Vue.js を使用して作成した天気 Web アプリ。",
+				"description": "# WeatherVue (ウェザービュー) ☀️\nこちらは Vue.jsをベースにした天気アプリケーションで、TailwindCSSを使用してスタイリングされています。このアプリでは、ユーザーがホームページで場所を指定して天気情報を検索することができます。\n## 特殊 🎉\n- ホームページでの場所検索機能（予測候補付き！）\n- 興味のある場所をホームページにピン留めして、素早くアクセスできるようにする機能。\n- 現在の天気表示\n- 数日間の天気予報機能。\n- TailwindCSSを使用したレスポンシブデザイン対応。\n\n天気データは[OpenWeatherMap](https://openweathermap.org/)の[OneAPI](https://openweathermap.org/api/one-call-3)から取得され、位置情報データはOpenWeatherMapの[GeocodingAPI](https://openweathermap.org/api/geocoding-api)から取得されます。\n\n## 技術 ⚙️\n- [Vue](https://vuejs.org/)\n- [Vue Router](https://router.vuejs.org/)\n- [TailwindCSS](https://tailwindcss.com/)\n- [Axios](https://axios-http.com/)\n- [Dayjs](https://day.js.org/)"
 			}
 		}
 	}

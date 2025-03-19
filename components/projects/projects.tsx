@@ -1,35 +1,48 @@
 import { useTranslations } from "next-intl";
 import React from "react";
 import Heading from "../heading/heading";
-import ProjectCard from "./project-card";
-
-type ProjectSymbol = "hana-shop" | "weathervue" | "rhythmflow";
+import ProjectDialog from "./project-dialog";
 
 // TODO: Update project image references
-const projects: { title: ProjectSymbol; pictures: string[] }[] = [
+const projects: {
+	title: ProjectSymbol;
+	banner: string;
+	pictures: string[];
+	link: string;
+	repo: string;
+}[] = [
 	{
 		title: "weathervue",
+		banner: "/projects/weathervue/banner.png",
 		pictures: [
 			"/projects/weathervue/home.png",
 			"/projects/weathervue/location.png",
 			"/projects/weathervue/weather.png",
 		],
+		link: "https://weathervue-woad.vercel.app/",
+		repo: "https://github.com/Niloy28/weathervue",
 	},
 	{
 		title: "hana-shop",
+		banner: "/projects/hana-shop/banner.png",
 		pictures: [
 			"/projects/weathervue/home.png",
 			"/projects/weathervue/location.png",
 			"/projects/weathervue/weather.png",
 		],
+		link: "https://hanashop.vercel.app/",
+		repo: "https://github.com/Niloy28/hana-shop",
 	},
 	{
 		title: "rhythmflow",
+		banner: "/projects/rhythmflow/banner.png",
 		pictures: [
 			"/projects/weathervue/home.png",
 			"/projects/weathervue/location.png",
 			"/projects/weathervue/weather.png",
 		],
+		link: "https://rhythmflow.vercel.app/",
+		repo: "https://github.com/Niloy28/rhtyhmflow",
 	},
 ];
 
@@ -45,12 +58,7 @@ const Projects = () => {
 
 			<div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-4 md:gap-6 items-center">
 				{projects.map((project, index) => (
-					<ProjectCard
-						key={index}
-						pictures={project.pictures}
-						title={t(`projects.${project.title}.title`)}
-						description={t(`projects.${project.title}.description`)}
-					/>
+					<ProjectDialog key={index} project={project} />
 				))}
 			</div>
 		</article>
