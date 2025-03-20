@@ -25,10 +25,10 @@ const NavBar = () => {
 					<NavLink key="contact" destination="contact" />
 				</NavigationMenuItem>
 			</NavigationMenuList>
-			<NavigationMenuList className="pr-4 flex gap-4">
+			<div className="pr-4 flex flex-1 gap-4 items-center justify-end">
 				<ThemeToggle />
 				<LocaleSelect />
-			</NavigationMenuList>
+			</div>
 		</NavigationMenu>
 	);
 };
