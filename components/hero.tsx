@@ -12,9 +12,8 @@ const Hero = () => {
 				<Image
 					className="rounded-full grow max-w-full h-full border-4 border-black dark:border-white object-cover m-auto"
 					src={Profile}
+					priority
 					alt="Farhan Ishrak Islam"
-					width={384}
-					height={384}
 				/>
 			</div>
 			<p className="sm:pt-10 md:pt-0 text-3xl text-center font-semibold px-12">
