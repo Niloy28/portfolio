@@ -18,9 +18,9 @@ const ProjectCarousel = ({ pictures }: { pictures: string[] }) => {
 							key={index}
 							src={picture}
 							alt=""
-							width={2000}
-							height={2000}
-							className="h-full w-full rounded-t-xl"
+							width={4000}
+							height={4000}
+							className="h-full w-full rounded-t-xl object-center"
 						/>
 					</CarouselItem>
 				))}

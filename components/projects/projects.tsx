@@ -3,7 +3,6 @@ import React from "react";
 import Heading from "../heading/heading";
 import ProjectDialog from "./project-dialog";
 
-// TODO: Update project image references
 const projects: {
 	title: ProjectSymbol;
 	banner: string;
@@ -26,9 +25,17 @@ const projects: {
 		title: "hana-shop",
 		banner: "/projects/hana-shop/banner.png",
 		pictures: [
-			"/projects/weathervue/home.png",
-			"/projects/weathervue/location.png",
-			"/projects/weathervue/weather.png",
+			"/projects/hana-shop/home.png",
+			"/projects/hana-shop/blog.png",
+			"/projects/hana-shop/products.png",
+			"/projects/hana-shop/product-details.png",
+			"/projects/hana-shop/cart.png",
+			"/projects/hana-shop/stripe.png",
+			"/projects/hana-shop/order-success.png",
+			"/projects/hana-shop/order-cancel.png",
+			"/projects/hana-shop/dashboard.png",
+			"/projects/hana-shop/product-form.png",
+			"/projects/hana-shop/banner-form.png",
 		],
 		link: "https://hanashop.vercel.app/",
 		repo: "https://github.com/Niloy28/hana-shop",
@@ -37,9 +44,10 @@ const projects: {
 		title: "rhythmflow",
 		banner: "/projects/rhythmflow/banner.png",
 		pictures: [
-			"/projects/weathervue/home.png",
-			"/projects/weathervue/location.png",
-			"/projects/weathervue/weather.png",
+			"/projects/rhythmflow/home.png",
+			"/projects/rhythmflow/artist-view.png",
+			"/projects/rhythmflow/album-view.png",
+			"/projects/rhythmflow/sign-in.png",
 		],
 		link: "https://rhythmflow.vercel.app/",
 		repo: "https://github.com/Niloy28/rhtyhmflow",
