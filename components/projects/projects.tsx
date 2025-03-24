@@ -6,7 +6,10 @@ import ProjectDialog from "./project-dialog";
 const projects: {
 	title: ProjectSymbol;
 	banner: string;
-	pictures: string[];
+	pictures: {
+		title: string;
+		src: string;
+	}[];
 	link: string;
 	repo: string;
 }[] = [
@@ -14,9 +17,18 @@ const projects: {
 		title: "weathervue",
 		banner: "/projects/weathervue/banner.png",
 		pictures: [
-			"/projects/weathervue/home.png",
-			"/projects/weathervue/location.png",
-			"/projects/weathervue/weather.png",
+			{
+				title: "Home",
+				src: "/projects/weathervue/home.png",
+			},
+			{
+				title: "Location Search",
+				src: "/projects/weathervue/location.png",
+			},
+			{
+				title: "Weather Details",
+				src: "/projects/weathervue/weather.png",
+			},
 		],
 		link: "https://weathervue-woad.vercel.app/",
 		repo: "https://github.com/Niloy28/weathervue",
@@ -25,17 +37,50 @@ const projects: {
 		title: "hana-shop",
 		banner: "/projects/hana-shop/banner.png",
 		pictures: [
-			"/projects/hana-shop/home.png",
-			"/projects/hana-shop/blog.png",
-			"/projects/hana-shop/products.png",
-			"/projects/hana-shop/product-details.png",
-			"/projects/hana-shop/cart.png",
-			"/projects/hana-shop/stripe.png",
-			"/projects/hana-shop/order-success.png",
-			"/projects/hana-shop/order-cancel.png",
-			"/projects/hana-shop/dashboard.png",
-			"/projects/hana-shop/product-form.png",
-			"/projects/hana-shop/banner-form.png",
+			{
+				title: "Home",
+				src: "/projects/hana-shop/home.png",
+			},
+			{
+				title: "Blog",
+				src: "/projects/hana-shop/blog.png",
+			},
+			{
+				title: "Products",
+				src: "/projects/hana-shop/products.png",
+			},
+			{
+				title: "Product Details",
+				src: "/projects/hana-shop/product-details.png",
+			},
+			{
+				title: "Cart",
+				src: "/projects/hana-shop/cart.png",
+			},
+			{
+				title: "Stripe Integration",
+				src: "/projects/hana-shop/stripe.png",
+			},
+			{
+				title: "Order Success",
+				src: "/projects/hana-shop/order-success.png",
+			},
+			{
+				title: "Order Cancel",
+				src: "/projects/hana-shop/order-cancel.png",
+			},
+			{
+				title: "Dashboard",
+				src: "/projects/hana-shop/dashboard.png",
+			},
+			{
+				title: "Product Form",
+				src: "/projects/hana-shop/product-form.png",
+			},
+			{
+				title: "Banner Form",
+				src: "/projects/hana-shop/banner-form.png",
+			},
 		],
 		link: "https://hanashop.vercel.app/",
 		repo: "https://github.com/Niloy28/hana-shop",
@@ -44,10 +89,22 @@ const projects: {
 		title: "rhythmflow",
 		banner: "/projects/rhythmflow/banner.png",
 		pictures: [
-			"/projects/rhythmflow/home.png",
-			"/projects/rhythmflow/artist-view.png",
-			"/projects/rhythmflow/album-view.png",
-			"/projects/rhythmflow/sign-in.png",
+			{
+				title: "Home",
+				src: "/projects/rhythmflow/home.png",
+			},
+			{
+				title: "Artist View",
+				src: "/projects/rhythmflow/artist-view.png",
+			},
+			{
+				title: "Album View",
+				src: "/projects/rhythmflow/album-view.png",
+			},
+			{
+				title: "Sign In Page",
+				src: "/projects/rhythmflow/sign-in.png",
+			},
 		],
 		link: "https://rhythmflow.vercel.app/",
 		repo: "https://github.com/Niloy28/rhtyhmflow",

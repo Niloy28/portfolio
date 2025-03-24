@@ -19,7 +19,7 @@ type ProjectDialogProps = {
 	project: {
 		title: ProjectSymbol;
 		banner: string;
-		pictures: string[];
+		pictures: { title: string; src: string }[];
 		link: string;
 		repo: string;
 	};
@@ -37,7 +37,7 @@ const ProjectDialog = ({ project }: ProjectDialogProps) => {
 					summary={t(`projects.${project.title}.summary`)}
 				/>
 			</DialogTrigger>
-			<DialogContent className="h-[80vh] min-w-[80vw]">
+			<DialogContent className="h-[90vh] min-w-[90vw]">
 				<DialogHeader>
 					<DialogTitle>{t(`projects.${project.title}.title`)}</DialogTitle>
 				</DialogHeader>
