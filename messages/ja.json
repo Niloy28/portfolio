@@ -90,5 +90,10 @@
 				"description": "# WeatherVue (ウェザービュー) ☀️\nこちらは Vue.jsをベースにした天気アプリケーションで、TailwindCSSを使用してスタイリングされています。このアプリでは、ユーザーがホームページで場所を指定して天気情報を検索することができます。\n## 特殊 🎉\n- ホームページでの場所検索機能（予測候補付き！）\n- 興味のある場所をホームページにピン留めして、素早くアクセスできるようにする機能。\n- 現在の天気表示\n- 数日間の天気予報機能。\n- TailwindCSSを使用したレスポンシブデザイン対応。\n\n天気データは[OpenWeatherMap](https://openweathermap.org/)の[OneAPI](https://openweathermap.org/api/one-call-3)から取得され、位置情報データはOpenWeatherMapの[GeocodingAPI](https://openweathermap.org/api/geocoding-api)から取得されます。\n\n## 技術 ⚙️\n- [Vue](https://vuejs.org/)\n- [Vue Router](https://router.vuejs.org/)\n- [TailwindCSS](https://tailwindcss.com/)\n- [Axios](https://axios-http.com/)\n- [Dayjs](https://day.js.org/)"
 			}
 		}
+	},
+	"Contact": {
+		"heading": "連絡",
+		"mail": "メール",
+		"socials": "SNS"
 	}
 }

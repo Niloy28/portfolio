@@ -1,3 +1,4 @@
+import Contact from "@/components/contact";
 import Hero from "@/components/hero";
 import Projects from "@/components/projects/projects";
 import Resume from "@/components/resume";
@@ -20,6 +21,7 @@ export default function Home({
 			<Resume />
 			<Skills />
 			<Projects />
+			<Contact />
 		</div>
 	);
 }

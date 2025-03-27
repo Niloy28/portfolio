@@ -1,6 +1,5 @@
-import { Copyright, Mail } from "lucide-react";
+import { Copyright } from "lucide-react";
 import React from "react";
-import { SocialIcon } from "react-social-icons";
 
 const Footer = () => {
 	return (
@@ -11,16 +10,6 @@ const Footer = () => {
 					Islam.
 				</p>
 				<p>All Rights Reserved.</p>
-			</div>
-			<div className="flex items-center gap-2">
-				<SocialIcon url="https://www.linkedin.com/in/farhan-ishrak-islam-26a7111b1/" />
-				<SocialIcon url="https://github.com/Niloy28" />
-				<a
-					aria-label="Send mail to Farhan Ishrak Islam"
-					href="mailto:niloy28@live.com"
-				>
-					<Mail size={48} className="rounded-full bg-foreground/40 p-3" />
-				</a>
 			</div>
 		</footer>
 	);
