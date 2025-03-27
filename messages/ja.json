@@ -39,11 +39,11 @@
 					},
 					{
 						"title": "管理システム UI 開発",
-						"description": "HTML、CSS、JavaScript、React といった標準的な Web 技術を使用して、ユーザーとプロジェクトデータの監視および管理を行う Web ベースの UI を開発しました。"
+						"description": "HTML、CSS、JavaScript、React など Web 技術を使用して、ユーザーとプロジェクトデータの監視および管理を行える Web ベースの UI を開発しました。"
 					},
 					{
 						"title": "処理自動化",
-						"description": "Github Actions と Azure Cronjobs を使用して、週次 KPI レポートの生成やプロジェクトのデイリービルドなどのプロセスを自動化しました。"
+						"description": "Github Actions と Azure Cronjobs を使用して、週次 KPI レポートの作成やプロジェクトを毎日ビルドするなどのプロセスを自動化しました。"
 					}
 				]
 			}
@@ -57,7 +57,7 @@
 			"courses": {
 				"thesis-heading": "論文トピック",
 				"thesis": "ゲームで強化学習ベースの敵AIを実装の研究",
-				"regular-heading": "普通",
+				"regular-heading": "普通のコース",
 				"regular": "構造プログラミング, オブジェクト指向プログラミング, データ構造とアルゴリズム, AI モデル開発"
 			}
 		}
