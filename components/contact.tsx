@@ -23,6 +23,7 @@ const Contact = () => {
 					<div className="flex gap-2 items-center">
 						<SocialIcon url="https://github.com/Niloy28" />
 						<SocialIcon url="https://www.linkedin.com/in/farhan-ishrak-islam-26a7111b1/" />
+						<SocialIcon url="https://niloy28.itch.io/" />
 					</div>
 				</div>
 				<a
