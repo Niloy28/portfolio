@@ -22,6 +22,14 @@
 				"period": "May 2024 - Now",
 				"content": [
 					{
+						"title": "Frontend Development",
+						"description": "Migrated legacy customer management UI from jQuery to React.js to improve maintainability and performance of the application through modern web development practices. Effectively used AI tools to accelerate development process."
+					},
+					{
+						"title": "Stock Management System Backend Development",
+						"description": "Developed an API backend on ASP.NET to facilitate inventory stock management. Developed endpoints to handle new product creation, stock updates and product information retrieval."
+					},
+					{
 						"title": "Self Study on Standby",
 						"description": "Acquiring new skills while on standby. Mainly focusing on web technologies such as Next.js, Vue.js and AWS features. Also studying about different designs and architectures used in enterprise development."
 					}
