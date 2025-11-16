@@ -57,22 +57,22 @@ const Skills = () => {
 						{t("language")}
 					</SubHeading>
 					<SkillGrid>
-						<SkillHoverCard name="C#" experience={1.5}>
+						<SkillHoverCard name="C#" experience={2}>
 							<SkillIcon>
 								<CsharpOriginal size={64} />
 							</SkillIcon>
 						</SkillHoverCard>
-						<SkillHoverCard name="HTML" experience={1.5}>
+						<SkillHoverCard name="HTML" experience={2}>
 							<SkillIcon>
 								<Html5Original size={64} />
 							</SkillIcon>
 						</SkillHoverCard>
-						<SkillHoverCard name="CSS" experience={1.5}>
+						<SkillHoverCard name="CSS" experience={2}>
 							<SkillIcon>
 								<Css3Original size={64} />
 							</SkillIcon>
 						</SkillHoverCard>
-						<SkillHoverCard name="JavaScript" experience={1.5}>
+						<SkillHoverCard name="JavaScript" experience={2}>
 							<SkillIcon>
 								<JavascriptOriginal size={64} />
 							</SkillIcon>
@@ -102,7 +102,7 @@ const Skills = () => {
 						{t("frameworks")}
 					</SubHeading>
 					<SkillGrid>
-						<SkillHoverCard name=".NET & ASP.NET" experience={1.5}>
+						<SkillHoverCard name=".NET & ASP.NET" experience={2}>
 							<SkillIcon>
 								<DotnetcoreOriginal size={60} />
 							</SkillIcon>
@@ -137,7 +137,7 @@ const Skills = () => {
 								<TailwindcssOriginal size={60} />
 							</SkillIcon>
 						</SkillHoverCard>
-						<SkillHoverCard name="Jest" experience={0}>
+						<SkillHoverCard name="Jest" experience={6}>
 							<SkillIcon>
 								<JestPlain size={60} />
 							</SkillIcon>
@@ -153,7 +153,7 @@ const Skills = () => {
 						{t("database")}
 					</SubHeading>
 					<SkillGrid>
-						<SkillHoverCard name="Microsoft SQL Server" experience={3}>
+						<SkillHoverCard name="Microsoft SQL Server" experience={9}>
 							<SkillIcon>
 								<MicrosoftsqlserverOriginal size={60} />
 							</SkillIcon>
@@ -173,7 +173,7 @@ const Skills = () => {
 						{t("tools")}
 					</SubHeading>
 					<SkillGrid>
-						<SkillHoverCard name="Git" experience={1.5}>
+						<SkillHoverCard name="Git" experience={2.5}>
 							<SkillIcon>
 								<GitOriginal size={64} />
 							</SkillIcon>
