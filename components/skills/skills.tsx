@@ -121,11 +121,11 @@ const Skills = () => {
 							<SkillIcon>
 								<ReactOriginal size={60} />
 							</SkillIcon>
-							<SkillHoverCard name="Jest" experience={6}>
-								<SkillIcon>
-									<JestPlain size={60} />
-								</SkillIcon>
-							</SkillHoverCard>
+						</SkillHoverCard>
+						<SkillHoverCard name="Jest" experience={6}>
+							<SkillIcon>
+								<JestPlain size={60} />
+							</SkillIcon>
 						</SkillHoverCard>
 						<SkillHoverCard name="Next.js" experience={0}>
 							<SkillIcon>
